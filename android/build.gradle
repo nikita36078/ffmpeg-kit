@@ -8,6 +8,10 @@ buildscript {
     }
 }
 
+ext {
+    githubUrl = 'https://github.com/nikita36078/ffmpeg-kit'
+}
+
 allprojects {
     repositories {
         google()
